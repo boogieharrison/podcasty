@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#14161a">
+<title>Podcasty</title>
+<style>
+:root {
+  --bg: #14161a;
+  --panel: #1c1f25;
+  --line: #2c313a;
+  --text: #e8e6e1;
+  --muted: #a3a7b0;
+  --accent: #e0b460;
+  --accent-ink: #1a1508;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+button, input { font: inherit; color: inherit; }
+button { cursor: pointer; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.app { display: flex; flex-wrap: wrap; align-items: flex-start; max-width: 1180px; margin: 0 auto; }
+.side { flex: 1 1 240px; max-width: 100%; padding: 28px 20px; display: flex; flex-direction: column; gap: 28px; }
+.main { flex: 999 1 560px; min-width: 0; padding: 28px 20px 64px; display: flex; flex-direction: column; gap: 28px; }
+@media (min-width: 860px) { .side { position: sticky; top: 0; } }
+
+h1 { margin: 0; font-size: 20px; font-weight: 650; letter-spacing: -0.01em; }
+.label { font-size: 12px; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); }
+
+.tabs { display: flex; flex-direction: column; gap: 4px; }
+.tab {
+  display: flex; justify-content: space-between; align-items: center; gap: 12px;
+  min-height: 44px; padding: 0 12px; text-align: left;
+  background: none; border: 1px solid transparent; border-radius: 8px;
+}
+.tab:hover { background: var(--panel); }
+.tab[aria-pressed="true"] { background: var(--panel); border-color: var(--line); font-weight: 600; }
+.tab .count { color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; }
+
+.group { display: flex; flex-direction: column; gap: 10px; }
+.check { display: flex; align-items: center; gap: 10px; min-height: 32px; font-size: 15px; }
+.check input { width: 18px; height: 18px; accent-color: var(--accent); flex: none; }
+.minrow { display: flex; align-items: center; gap: 8px; font-size: 14px; white-space: nowrap; }
+.minrow input[type="number"] {
+  width: 56px; height: 36px; padding: 0 8px; background: var(--panel);
+  border: 1px solid var(--line); border-radius: 8px;
+}
+.hint { font-size: 13px; color: var(--muted); margin: 0; }
+
+.player { display: none; flex-direction: column; gap: 14px; }
+.player.on { display: flex; }
+.frame { position: relative; width: 100%; aspect-ratio: 16 / 9; background: #000; border-radius: 10px; overflow: hidden; }
+.frame > div, .frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.now { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; }
+.now-title { font-size: 18px; font-weight: 650; margin: 0; }
+.meta { font-size: 14px; color: var(--muted); margin: 0; }
+
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 44px; padding: 0 14px; border-radius: 8px; text-decoration: none;
+  background: var(--panel); border: 1px solid var(--line); font-size: 14px; font-weight: 550; white-space: nowrap;
+}
+.btn:hover { border-color: var(--muted); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.btn.icon { width: 44px; padding: 0; }
+.btn[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
+.actions { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.list-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+.list { list-style: none; margin: 0; padding: 0; }
+.ep { display: flex; gap: 16px; align-items: center; padding: 16px 0; border-bottom: 1px solid var(--line); }
+.thumb { flex: 0 0 144px; aspect-ratio: 16 / 9; border-radius: 8px; background: var(--panel); object-fit: cover; }
+.ep-body { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.ep-title { margin: 0; font-size: 16px; font-weight: 600; overflow-wrap: anywhere; }
+.bar { height: 3px; width: 100%; max-width: 220px; border-radius: 2px; background: var(--line); overflow: hidden; margin-top: 4px; }
+.bar i { display: block; height: 100%; background: var(--accent); }
+.ep .actions { flex: 0 0 auto; }
+.end { padding: 44px 0 0; text-align: center; }
+.end strong { display: block; font-size: 16px; }
+
+/* Telefon: kolejność przycisków odwrócona – główna akcja to aplikacja YouTube */
+@media (max-width: 720px) {
+  .side { padding-bottom: 0; gap: 16px; }
+  .tabs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .tab { justify-content: center; border-color: var(--line); gap: 8px; }
+  .ep { flex-wrap: wrap; align-items: flex-start; }
+  .thumb { flex-basis: 112px; }
+  .ep-body { flex-basis: 0; }
+  .ep .actions { flex: 1 1 100%; }
+  .ep .actions .yt { order: -1; flex: 1 1 auto; background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  .ep .actions .play { background: var(--panel); border-color: var(--line); color: var(--text); }
+}
+details summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; }
+details[open] summary { margin-bottom: 8px; }
+</style>
+</head>
+<body>
+<div class="app">
+
+<aside class="side">
+  <h1>Podcasty</h1>
+
+  <nav class="tabs" aria-label="Filtry" id="tabs"></nav>
+
+  <details id="settings">
+    <summary class="label">Kanały i filtry</summary>
+    <div class="group" id="channels"></div>
+    <div class="group" style="margin-top:20px">
+      <label class="minrow">Ukryj krótsze niż
+        <input type="number" id="minMin" min="0" max="240" step="1" inputmode="numeric"> min
+      </label>
+      <p class="hint" id="updated"></p>
+    </div>
+  </details>
+</aside>
+
+<main class="main">
+  <section class="player" id="player" aria-label="Odtwarzacz">
+    <div class="frame"><div id="yt"></div></div>
+    <div class="now">
+      <div>
+        <p class="now-title" id="nowTitle"></p>
+        <p class="meta" id="nowMeta"></p>
+      </div>
+      <div class="actions">
+        <button class="btn primary" id="nowDone">Odsłuchane</button>
+        <button class="btn" id="nowClose">Zamknij</button>
+      </div>
+    </div>
+  </section>
+
+  <section aria-label="Lista odcinków">
+    <div class="list-head">
+      <span class="label" id="listTitle"></span>
+    </div>
+    <ul class="list" id="list"></ul>
+    <div class="end" id="end"></div>
+  </section>
+</main>
+
+</div>
+
+<script>
+(() => {
+  const TABS = [
+    { id: 'new', name: 'Nowe', empty: 'Nie ma nowych odcinków.' },
+    { id: 'progress', name: 'W trakcie', empty: 'Nic nie jest zaczęte.' },
+    { id: 'later', name: 'Na później', empty: 'Nic nie odłożono na później.' },
+    { id: 'done', name: 'Odsłuchane', empty: 'Jeszcze nic nie odsłuchano.' },
+  ];
+  const KEY = 'podcasty.v1';
+  const $ = (id) => document.getElementById(id);
+
+  // ---- stan zapisany w tej przeglądarce ----
+  let state = { marks: {}, pos: {}, off: [], minMin: 10, tab: 'new' };
+  try {
+    const saved = JSON.parse(localStorage.getItem(KEY) || 'null');
+    if (saved) state = { ...state, ...saved };
+  } catch {}
+  const save = () => {
+    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {}
+  };
+
+  let data = { updatedAt: null, channels: [], episodes: [] };
+  let loaded = false;
+  let current = null; // id odtwarzanego odcinka
+  let player = null;
+  let ticker = null;
+
+  const el = (tagName, props = {}, children = []) => {
+    const node = document.createElement(tagName);
+    for (const [k, v] of Object.entries(props)) {
+      if (k === 'text') node.textContent = v;
+      else if (k === 'on') for (const [ev, fn] of Object.entries(v)) node.addEventListener(ev, fn);
+      else if (v !== null && v !== undefined) node.setAttribute(k, v);
+    }
+    for (const c of [].concat(children)) if (c) node.append(c);
+    return node;
+  };
+
+  const svg = (d) =>
+    `<svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="${d}"/></svg>`;
+  const ICON = { check: 'M3 9.5l4 4 8-9', later: 'M5 3h8v12l-4-3-4 3z', undo: 'M4 7h7a4 4 0 010 8H7M4 7l3-3M4 7l3 3' };
+
+  const fmtDuration = (s) => {
+    if (!s) return null;
+    const m = Math.round(s / 60);
+    return m >= 60 ? `${Math.floor(m / 60)} h ${String(m % 60).padStart(2, '0')} min` : `${m} min`;
+  };
+  const rtf = new Intl.RelativeTimeFormat('pl', { numeric: 'auto' });
+  const fmtDate = (iso) => {
+    const then = new Date(iso);
+    const days = Math.round((startOfDay(then) - startOfDay(new Date())) / 864e5);
+    if (days > -7) return rtf.format(days, 'day');
+    return then.toLocaleDateString('pl', { day: 'numeric', month: 'short', year: 'numeric' });
+  };
+  const startOfDay = (d) => new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime();
+
+  const channelName = (key) => (data.channels.find((c) => c.key === key) || {}).title || '';
+
+  const statusOf = (e) => {
+    const mark = state.marks[e.id];
+    if (mark === 'done') return 'done';
+    if (mark === 'later') return 'later';
+    if (state.pos[e.id] > 15) return 'progress';
+    return 'new';
+  };
+
+  const visible = () =>
+    data.episodes.filter((e) => {
+      if (state.off.includes(e.channel)) return false;
+      if (e.duration && e.duration < state.minMin * 60) return false;
+      return true;
+    });
+
+  // ---- akcje ----
+  const setMark = (id, mark) => {
+    if (mark) state.marks[id] = mark;
+    else delete state.marks[id];
+    if (mark === 'done') delete state.pos[id];
+    save();
+    render();
+  };
+
+  const play = (e) => {
+    current = e.id;
+    $('player').classList.add('on');
+    $('nowTitle').textContent = e.title;
+    $('nowMeta').textContent = [channelName(e.channel), fmtDate(e.published), fmtDuration(e.duration)]
+      .filter(Boolean).join(' · ');
+    const start = Math.max(0, Math.floor((state.pos[e.id] || 0) - 3));
+    if (player && player.loadVideoById) {
+      player.loadVideoById({ videoId: e.id, startSeconds: start });
+    } else {
+      pending = { id: e.id, start };
+      loadApi();
+    }
+    $('player').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
+  const closePlayer = () => {
+    remember();
+    if (player && player.stopVideo) player.stopVideo();
+    current = null;
+    $('player').classList.remove('on');
+    render();
+  };
+
+  const remember = () => {
+    if (!current || !player || !player.getCurrentTime) return;
+    const t = player.getCurrentTime();
+    if (t > 0 && state.marks[current] !== 'done') {
+      state.pos[current] = Math.floor(t);
+      save();
+    }
+  };
+
+  // ---- odtwarzacz YouTube ----
+  let pending = null;
+  let apiRequested = false;
+  const loadApi = () => {
+    if (apiRequested) return;
+    apiRequested = true;
+    const s = document.createElement('script');
+    s.src = 'https://www.youtube.com/iframe_api';
+    document.head.append(s);
+  };
+  window.onYouTubeIframeAPIReady = () => {
+    player = new YT.Player('yt', {
+      videoId: pending ? pending.id : undefined,
+      playerVars: { autoplay: 1, rel: 0, playsinline: 1, start: pending ? pending.start : 0 },
+      events: {
+        onStateChange: (ev) => {
+          if (ev.data === YT.PlayerState.ENDED && current) {
+            const id = current;
+            current = null;
+            $('player').classList.remove('on');
+            setMark(id, 'done');
+          }
+        },
+      },
+    });
+    ticker = setInterval(remember, 5000);
+  };
+  window.addEventListener('pagehide', remember);
+
+  // ---- rysowanie ----
+  const renderTabs = (eps) => {
+    const counts = { new: 0, progress: 0, later: 0, done: 0 };
+    for (const e of eps) counts[statusOf(e)] += 1;
+    $('tabs').replaceChildren(
+      ...TABS.map((t) =>
+        el('button', {
+          class: 'tab', 'aria-pressed': String(state.tab === t.id),
+          on: { click: () => { state.tab = t.id; save(); render(); } },
+        }, [el('span', { text: t.name }), el('span', { class: 'count', text: String(counts[t.id]) })]),
+      ),
+    );
+  };
+
+  const iconBtn = (label, icon, pressed, fn) => {
+    const b = el('button', { class: 'btn icon', 'aria-label': label, title: label, on: { click: fn } });
+    if (pressed !== null) b.setAttribute('aria-pressed', String(pressed));
+    b.innerHTML = svg(ICON[icon]);
+    return b;
+  };
+
+  const renderRow = (e) => {
+    const st = statusOf(e);
+    const pos = state.pos[e.id] || 0;
+    const meta = [channelName(e.channel), fmtDate(e.published), fmtDuration(e.duration)].filter(Boolean).join(' · ');
+    const body = el('div', { class: 'ep-body' }, [
+      el('p', { class: 'ep-title', text: e.title }),
+      el('p', { class: 'meta', text: meta }),
+    ]);
+    if (st === 'progress' && e.duration) {
+      const bar = el('div', { class: 'bar', role: 'img', 'aria-label': `Odsłuchano ${Math.round((pos / e.duration) * 100)}%` });
+      const fill = el('i');
+      fill.style.width = Math.min(100, (pos / e.duration) * 100) + '%';
+      bar.append(fill);
+      body.append(bar);
+    }
+    const actions = el('div', { class: 'actions' }, [
+      el('button', { class: 'btn primary play', text: st === 'progress' ? 'Wznów' : 'Odtwórz', on: { click: () => play(e) } }),
+      el('a', {
+        class: 'btn yt', href: `https://www.youtube.com/watch?v=${e.id}${pos > 15 ? `&t=${pos}s` : ''}`,
+        target: '_blank', rel: 'noopener', text: 'W YouTube',
+      }),
+      st === 'done'
+        ? iconBtn('Cofnij oznaczenie', 'undo', null, () => setMark(e.id, null))
+        : iconBtn('Na później', 'later', st === 'later', () => setMark(e.id, st === 'later' ? null : 'later')),
+      st === 'done' ? null : iconBtn('Oznacz jako odsłuchane', 'check', null, () => setMark(e.id, 'done')),
+    ]);
+    return el('li', { class: 'ep' }, [
+      el('img', { class: 'thumb', src: `https://i.ytimg.com/vi/${e.id}/mqdefault.jpg`, alt: '', loading: 'lazy' }),
+      body,
+      actions,
+    ]);
+  };
+
+  const renderSettings = () => {
+    $('channels').replaceChildren(
+      ...data.channels.map((c) => {
+        const box = el('input', { type: 'checkbox' });
+        box.checked = !state.off.includes(c.key);
+        box.addEventListener('change', () => {
+          state.off = box.checked ? state.off.filter((k) => k !== c.key) : [...state.off, c.key];
+          save();
+          render();
+        });
+        return el('label', { class: 'check' }, [box, el('span', { text: c.title })]);
+      }),
+    );
+    $('minMin').value = state.minMin;
+    $('updated').textContent = data.updatedAt
+      ? 'Ostatnie zbieranie: ' + new Date(data.updatedAt).toLocaleString('pl', { dateStyle: 'medium', timeStyle: 'short' })
+      : '';
+  };
+
+  const render = () => {
+    const eps = visible();
+    renderTabs(eps);
+    const tab = TABS.find((t) => t.id === state.tab) || TABS[0];
+    const rows = eps.filter((e) => statusOf(e) === tab.id);
+    $('listTitle').textContent = tab.name;
+    $('list').replaceChildren(...rows.map(renderRow));
+
+    const end = $('end');
+    if (!loaded) {
+      end.replaceChildren(el('p', { class: 'meta', text: 'Wczytywanie…' }));
+    } else if (!data.channels.length) {
+      end.replaceChildren(
+        el('strong', { text: 'Brak kanałów' }),
+        el('p', { class: 'meta', text: 'Dodaj linki do kanałów w pliku channels.json w repozytorium. Odcinki pojawią się po najbliższym zbieraniu.' }),
+      );
+    } else if (!rows.length) {
+      end.replaceChildren(el('strong', { text: tab.empty }));
+    } else {
+      end.replaceChildren(
+        el('strong', { text: 'To wszystko' }),
+        el('p', { class: 'meta', text: 'Lista kończy się tutaj.' }),
+      );
+    }
+  };
+
+  $('minMin').addEventListener('change', (ev) => {
+    const n = Number(ev.target.value);
+    state.minMin = Number.isFinite(n) && n >= 0 ? n : 0;
+    save();
+    render();
+  });
+  $('nowDone').addEventListener('click', () => {
+    const id = current;
+    if (player && player.stopVideo) player.stopVideo();
+    current = null;
+    $('player').classList.remove('on');
+    if (id) setMark(id, 'done');
+  });
+  $('nowClose').addEventListener('click', closePlayer);
+
+  // Na szerokim ekranie panel kanałów jest od razu rozwinięty
+  if (window.matchMedia('(min-width: 860px)').matches) $('settings').open = true;
+
+  render();
+  fetch('data/episodes.json', { cache: 'no-store' })
+    .then((r) => (r.ok ? r.json() : Promise.reject(new Error(r.status))))
+    .then((json) => {
+      loaded = true;
+      data = { updatedAt: json.updatedAt, channels: json.channels || [], episodes: json.episodes || [] };
+      renderSettings();
+      render();
+    })
+    .catch(() => {
+      $('end').replaceChildren(
+        el('strong', { text: 'Nie udało się wczytać odcinków' }),
+        el('p', { class: 'meta', text: 'Odśwież stronę za chwilę.' }),
+      );
+    });
+})();
+</script>
+</body>
+</html>

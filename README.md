@@ -1,0 +1,34 @@
+# Podcasty
+
+Prywatna lista odcinków z wybranych kanałów YouTube. Automat na GitHubie co godzinę
+czyta kanały RSS i odświeża stronę.
+
+## Uruchomienie (jednorazowo)
+
+1. Załóż darmowe konto na github.com i utwórz nowe repozytorium **Public** (np. `podcasty`).
+2. Wgraj do niego całą zawartość tego folderu, łącznie z ukrytym folderem `.github`
+   (Add file → Upload files; folder `.github` najłatwiej przeciągnąć z rozpakowanego ZIP-a).
+3. Settings → Pages → Build and deployment → Source: **GitHub Actions**.
+4. Settings → Actions → General → Workflow permissions: **Read and write permissions**.
+5. Zakładka Actions → „Zbierz odcinki i opublikuj stronę” → Run workflow.
+6. Adres strony pojawi się w Settings → Pages (zwykle `https://<login>.github.io/podcasty/`).
+
+## Dodawanie podcastów
+
+Edytuj `channels.json` (ikona ołówka na GitHubie) i wpisz linki do kanałów lub playlist:
+
+```json
+[
+  "https://www.youtube.com/@nazwakanalu",
+  { "url": "https://www.youtube.com/playlist?list=PL...", "name": "Własna nazwa" }
+]
+```
+
+Po zapisaniu (Commit changes) automat uruchomi się sam; odcinki pojawią się po 1–2 minutach.
+
+## Co gdzie jest
+
+- `index.html` – cała aplikacja
+- `channels.json` – lista kanałów
+- `scripts/fetch.mjs` – zbieranie odcinków
+- `data/` – zebrane odcinki (plik zapisuje automat)
