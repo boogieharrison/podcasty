@@ -1,5 +1,117 @@
 {
- "updatedAt": "2026-11-18T15:05:15.608Z",
- "channels": [],
- "episodes": []
+ "updatedAt": "2026-11-18T15:09:09.933Z",
+ "channels": [
+  {
+   "key": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
+   "title": "Kultura Poświęcona",
+   "url": "https://www.youtube.com/playlist?list=PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU"
+  }
+ ],
+ "episodes": [
+  {
+   "id": "9txu0rhCgik",
+   "title": "Czego uczy nas tragedia w Krakowie? Jak pokonać dekadencję | #KulturaPoświęcona",
+   "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
+   "published": "2026-11-14T09:00:06+00:00",
+   "duration": null
+  },
+  {
+   "id": "8gdjes9HebI",
+   "title": "Dusza – nauka vs religia. Bogdan de Barbaro i ks. Robert Woźniak | #KulturaPoświęcona",
+   "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
+   "published": "2026-11-07T09:00:10+00:00",
+   "duration": null
+  },
+  {
+   "id": "JuqQxnVXZns",
+   "title": "W obronie ks. Szymika i tradycyjnego kapłaństwa. Gość: Jan Maciejewski | Kultura Poświęcona",
+   "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
+   "published": "2026-10-31T09:00:07+00:00",
+   "duration": null
+  },
+  {
+   "id": "ssRFPvvPEgA",
+   "title": "Dialog czy relatywizm międzyreligijny? Tradycja, Sobór Watykański II i Jan Paweł II w Asyżu",
+   "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
+   "published": "2026-10-24T08:00:06+00:00",
+   "duration": null
+  },
+  {
+   "id": "mgDsqlq4-Ns",
+   "title": "Magia, alchemia i chrześcijaństwo. Nieoczywista historia | #KulturaPoświęcona",
+   "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
+   "published": "2026-10-17T08:00:10+00:00",
+   "duration": null
+  },
+  {
+   "id": "Ssf-FY_x17E",
+   "title": "Biejat się cieszy, Pasolini płacze. Rewolucja 1968 roku skończyła lewicę? | #KulturaPoświęcona",
+   "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
+   "published": "2026-10-10T08:00:07+00:00",
+   "duration": null
+  },
+  {
+   "id": "Luc_dVcadUg",
+   "title": "Kard. Grzegorz Ryś: Po 1989 r. nie poradziliśmy sobie z wolnością | #KulturaPoświęcona",
+   "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
+   "published": "2026-10-03T08:00:07+00:00",
+   "duration": null
+  },
+  {
+   "id": "p7HgpEljxgg",
+   "title": "Dieta planetarna w szkołach i psiecko NA POWAŻNIE | #KulturaPoświęcona",
+   "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
+   "published": "2026-09-26T08:00:07+00:00",
+   "duration": null
+  },
+  {
+   "id": "1DkmzIRjfJw",
+   "title": "„Lalka” z Netflixa: ideologia, propaganda, porażka | #KulturaPoświęcona",
+   "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
+   "published": "2026-09-19T08:00:06+00:00",
+   "duration": null
+  },
+  {
+   "id": "hJ28w-L5ypA",
+   "title": "Osiedle Maltańskie. Kościół sprzedał, deweloper zarobił, politycy zawiedli | #KulturaPoświęcona",
+   "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
+   "published": "2026-09-12T08:00:06+00:00",
+   "duration": null
+  },
+  {
+   "id": "haxOQ_OVc7w",
+   "title": "Maryja z Konotopia – gigantomania czy znak wiary? Od Ziemowita Szczerka do gotyckich katedr",
+   "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
+   "published": "2026-09-05T08:00:06+00:00",
+   "duration": null
+  },
+  {
+   "id": "v5w2DA5z-mk",
+   "title": "Mróz-Gorgoń to małe piwo. Polska potrzebuje nowego „Czterdziestolatka” | #KulturaPoświęcona",
+   "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
+   "published": "2026-08-29T08:00:06+00:00",
+   "duration": null
+  },
+  {
+   "id": "C6RrMEbHv8g",
+   "title": "Od „Tristana i Izoldy” do Tindera. Kultura terapii wykańcza miłość | #KulturaPoświęcona",
+   "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
+   "published": "2026-08-22T08:00:06+00:00",
+   "duration": null
+  },
+  {
+   "id": "2LTGIw-Ty5g",
+   "title": "Prawdziwy powód kryzysu Kościoła katolickiego? Zwycięstwo jezuitów | #KulturaPoświęcona",
+   "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
+   "published": "2026-08-15T08:00:06+00:00",
+   "duration": null
+  },
+  {
+   "id": "nkHo7os-FkU",
+   "title": "Islam, Kościół i imigracja. Czego Ceuta uczy Zachód? Gość: Mariusz Sulkowski | #KulturaPoświęcona",
+   "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
+   "published": "2026-08-08T08:00:06+00:00",
+   "duration": null
+  }
+ ]
 }
