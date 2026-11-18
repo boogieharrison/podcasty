@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-18T15:12:27.993Z",
+ "updatedAt": "2026-11-18T15:14:57.448Z",
  "channels": [
   {
    "key": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
@@ -10,6 +10,11 @@
    "key": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
    "title": "Mentzen Grilluje",
    "url": "https://www.youtube.com/playlist?list=PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F"
+  },
+  {
+   "key": "PL7rwi_whaW87TSZHm6IppkZ7KnqVcxAXM",
+   "title": "DUDEK O POLITYCE PODCAST",
+   "url": "https://www.youtube.com/playlist?list=PL7rwi_whaW87TSZHm6IppkZ7KnqVcxAXM"
   }
  ],
  "episodes": [
@@ -28,6 +33,13 @@
    "duration": null
   },
   {
+   "id": "71nJqS1vAoQ",
+   "title": "PROF. DUDEK: MISTRZOWSKI RUCH TUSKA! NAWROCKI CHCE PRZEJĄĆ WOJSKO! | Dudek o Polityce",
+   "channel": "PL7rwi_whaW87TSZHm6IppkZ7KnqVcxAXM",
+   "published": "2026-11-13T19:00:08+00:00",
+   "duration": null
+  },
+  {
    "id": "r_Ep-X5uhMI",
    "title": "MENTZEN GRILLUJE #110: Kraków",
    "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
@@ -39,6 +51,13 @@
    "title": "Dusza – nauka vs religia. Bogdan de Barbaro i ks. Robert Woźniak | #KulturaPoświęcona",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
    "published": "2026-11-07T09:00:10+00:00",
+   "duration": null
+  },
+  {
+   "id": "vK84BY1eSo8",
+   "title": "PROF. DUDEK O TRYBUNALE, ROSYJSKICH DYWERSANTACH I KLĘSCE TRUMPA | Dudek o Polityce",
+   "channel": "PL7rwi_whaW87TSZHm6IppkZ7KnqVcxAXM",
+   "published": "2026-11-06T19:00:10+00:00",
    "duration": null
   },
   {
@@ -56,6 +75,13 @@
    "duration": null
   },
   {
+   "id": "4_y05hvVI1A",
+   "title": "KACZYŃSKI I GROŹBA POLEXITU. ZEZNANIA PRZECIWKO NAWROCKIEMU I MOBBING U TUSKA | Dudek o Polityce",
+   "channel": "PL7rwi_whaW87TSZHm6IppkZ7KnqVcxAXM",
+   "published": "2026-10-30T19:00:07+00:00",
+   "duration": null
+  },
+  {
    "id": "nowJZ9tjHCo",
    "title": "MENTZEN GRILLUJE #108: Maharadża Tusk",
    "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
@@ -67,6 +93,13 @@
    "title": "Dialog czy relatywizm międzyreligijny? Tradycja, Sobór Watykański II i Jan Paweł II w Asyżu",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
    "published": "2026-10-24T08:00:06+00:00",
+   "duration": null
+  },
+  {
+   "id": "rBeh9jCAGQs",
+   "title": "ODEJŚCIE PEŁCZYŃSKIEJ-NAŁĘCZ, OSTATNIA SZANSA UKRAINY I TEATRZYK KACZYŃSKIEGO | Dudek o Polityce",
+   "channel": "PL7rwi_whaW87TSZHm6IppkZ7KnqVcxAXM",
+   "published": "2026-10-23T18:00:09+00:00",
    "duration": null
   },
   {
@@ -84,6 +117,13 @@
    "duration": null
   },
   {
+   "id": "ovEbDZSXSeY",
+   "title": "AWANTURA POD TRYBUNAŁEM, KUGLARSKIE WETO NAWROCKIEGO I KOMPROMITACJA PRAWICY | Dudek o Polityce",
+   "channel": "PL7rwi_whaW87TSZHm6IppkZ7KnqVcxAXM",
+   "published": "2026-10-16T18:00:20+00:00",
+   "duration": null
+  },
+  {
    "id": "nLkMi18RuKg",
    "title": "MENTZEN GRILLUJE #106: Mein Kraft",
    "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
@@ -95,6 +135,13 @@
    "title": "Biejat się cieszy, Pasolini płacze. Rewolucja 1968 roku skończyła lewicę? | #KulturaPoświęcona",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
    "published": "2026-10-10T08:00:07+00:00",
+   "duration": null
+  },
+  {
+   "id": "PnnvZ-27CsY",
+   "title": "ATAKI NA UCZNIÓW W SZKOŁACH, BRAUN ZDRAJCĄ POLSKI I \"KURTYZANA\" BERKOWICZA | Dudek o Polityce",
+   "channel": "PL7rwi_whaW87TSZHm6IppkZ7KnqVcxAXM",
+   "published": "2026-10-09T18:00:10+00:00",
    "duration": null
   },
   {
@@ -112,6 +159,13 @@
    "duration": null
   },
   {
+   "id": "hLmwcJdXelc",
+   "title": "PROF. DUDEK: TUSK OGRAŁ NAWROCKIEGO! MENTZEN SIĘ SKOMPROMITOWAŁ | Dudek o Polityce",
+   "channel": "PL7rwi_whaW87TSZHm6IppkZ7KnqVcxAXM",
+   "published": "2026-10-02T18:00:06+00:00",
+   "duration": null
+  },
+  {
    "id": "fzko0Ds4dzQ",
    "title": "MENTZEN GRILLUJE #104: Analfabeta Wałęsa",
    "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
@@ -123,6 +177,13 @@
    "title": "Dieta planetarna w szkołach i psiecko NA POWAŻNIE | #KulturaPoświęcona",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
    "published": "2026-09-26T08:00:07+00:00",
+   "duration": null
+  },
+  {
+   "id": "UiFGpwqpm60",
+   "title": "PŁATNE SPOTKANIA Z NAWROCKIM, RZECZNIK ZABIERANIA DZIECI I ZBRODNIA W JAROSŁAWIU | Dudek o Polityce",
+   "channel": "PL7rwi_whaW87TSZHm6IppkZ7KnqVcxAXM",
+   "published": "2026-09-25T18:00:09+00:00",
    "duration": null
   },
   {
@@ -140,6 +201,13 @@
    "duration": null
   },
   {
+   "id": "KcnXRWZYmjk",
+   "title": "WOJNA O MARSZAŁKA, ROSYJSKI DRON I AWANTURA O TK! DUDEK O POLITYCE NA ŻYWO & TELEFONY OD WIDZÓW",
+   "channel": "PL7rwi_whaW87TSZHm6IppkZ7KnqVcxAXM",
+   "published": "2026-09-18T19:48:45+00:00",
+   "duration": null
+  },
+  {
    "id": "9iO4OwJPljs",
    "title": "MENTZEN GRILLUJE #102: Trump oszalał",
    "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
@@ -154,10 +222,24 @@
    "duration": null
   },
   {
+   "id": "L_5e2N5eZrM",
+   "title": "TRUMP ZNOWU OSZALAŁ?! WANDALIZM BRAUNA, CENY PALIW I WYGRANA AfD | Dudek o Polityce",
+   "channel": "PL7rwi_whaW87TSZHm6IppkZ7KnqVcxAXM",
+   "published": "2026-09-11T18:00:06+00:00",
+   "duration": null
+  },
+  {
    "id": "haxOQ_OVc7w",
    "title": "Maryja z Konotopia – gigantomania czy znak wiary? Od Ziemowita Szczerka do gotyckich katedr",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
    "published": "2026-09-05T08:00:06+00:00",
+   "duration": null
+  },
+  {
+   "id": "cww4G0pjZV4",
+   "title": "PIS JEST NA SMYCZY KRYPTO-MAFII! WIELKI BŁĄD TUSKA I ROSYJSKI SABOTAŻ | Dudek o Polityce",
+   "channel": "PL7rwi_whaW87TSZHm6IppkZ7KnqVcxAXM",
+   "published": "2026-09-04T18:00:06+00:00",
    "duration": null
   },
   {
@@ -175,6 +257,13 @@
    "duration": null
   },
   {
+   "id": "tFgDbF1x0Qc",
+   "title": "KONFEDERACJA WYPRZEDZI PiS?! To może być KONIEC DUOPOLU | DUDEK O POLITYCE",
+   "channel": "PL7rwi_whaW87TSZHm6IppkZ7KnqVcxAXM",
+   "published": "2026-08-28T18:00:06+00:00",
+   "duration": null
+  },
+  {
    "id": "C6RrMEbHv8g",
    "title": "Od „Tristana i Izoldy” do Tindera. Kultura terapii wykańcza miłość | #KulturaPoświęcona",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
@@ -182,10 +271,24 @@
    "duration": null
   },
   {
+   "id": "qXT3fI4I05Y",
+   "title": "PROF. DUDEK: TO 21 OSZUSTW KAROLA NAWROCKIEGO! PODSUMOWANIE ROKU PREZYDENTURY | Dudek o Polityce",
+   "channel": "PL7rwi_whaW87TSZHm6IppkZ7KnqVcxAXM",
+   "published": "2026-08-21T18:00:06+00:00",
+   "duration": null
+  },
+  {
    "id": "2LTGIw-Ty5g",
    "title": "Prawdziwy powód kryzysu Kościoła katolickiego? Zwycięstwo jezuitów | #KulturaPoświęcona",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
    "published": "2026-08-15T08:00:06+00:00",
+   "duration": null
+  },
+  {
+   "id": "GD72QVCqkfc",
+   "title": "PROF. DUDEK: UCIEKINIER ROMANOWSKI, OGROMNY WYCIEK DANYCH I ZAMACH NA TRYBUNAŁ | Dudek o Polityce",
+   "channel": "PL7rwi_whaW87TSZHm6IppkZ7KnqVcxAXM",
+   "published": "2026-08-14T18:00:06+00:00",
    "duration": null
   },
   {
