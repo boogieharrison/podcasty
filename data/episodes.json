@@ -1,18 +1,37 @@
 {
- "updatedAt": "2026-11-18T15:09:09.933Z",
+ "updatedAt": "2026-11-18T15:12:27.993Z",
  "channels": [
   {
    "key": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
    "title": "Kultura Poświęcona",
    "url": "https://www.youtube.com/playlist?list=PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU"
+  },
+  {
+   "key": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
+   "title": "Mentzen Grilluje",
+   "url": "https://www.youtube.com/playlist?list=PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F"
   }
  ],
  "episodes": [
+  {
+   "id": "wNB2XQ94xA4",
+   "title": "MENTZEN GRILLUJE #111: Marsz Niepodległości",
+   "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
+   "published": "2026-11-16T15:47:02+00:00",
+   "duration": null
+  },
   {
    "id": "9txu0rhCgik",
    "title": "Czego uczy nas tragedia w Krakowie? Jak pokonać dekadencję | #KulturaPoświęcona",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
    "published": "2026-11-14T09:00:06+00:00",
+   "duration": null
+  },
+  {
+   "id": "r_Ep-X5uhMI",
+   "title": "MENTZEN GRILLUJE #110: Kraków",
+   "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
+   "published": "2026-11-09T16:52:00+00:00",
    "duration": null
   },
   {
@@ -23,10 +42,24 @@
    "duration": null
   },
   {
+   "id": "VoT2ub-rayY",
+   "title": "MENTZEN GRILLUJE #109: Zamach stanu",
+   "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
+   "published": "2026-11-02T16:23:41+00:00",
+   "duration": null
+  },
+  {
    "id": "JuqQxnVXZns",
    "title": "W obronie ks. Szymika i tradycyjnego kapłaństwa. Gość: Jan Maciejewski | Kultura Poświęcona",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
    "published": "2026-10-31T09:00:07+00:00",
+   "duration": null
+  },
+  {
+   "id": "nowJZ9tjHCo",
+   "title": "MENTZEN GRILLUJE #108: Maharadża Tusk",
+   "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
+   "published": "2026-10-26T16:17:21+00:00",
    "duration": null
   },
   {
@@ -37,10 +70,24 @@
    "duration": null
   },
   {
+   "id": "37a9gzBq32M",
+   "title": "MENTZEN GRILLUJE #107: Francja",
+   "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
+   "published": "2026-10-19T15:34:23+00:00",
+   "duration": null
+  },
+  {
    "id": "mgDsqlq4-Ns",
    "title": "Magia, alchemia i chrześcijaństwo. Nieoczywista historia | #KulturaPoświęcona",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
    "published": "2026-10-17T08:00:10+00:00",
+   "duration": null
+  },
+  {
+   "id": "nLkMi18RuKg",
+   "title": "MENTZEN GRILLUJE #106: Mein Kraft",
+   "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
+   "published": "2026-10-12T13:38:12+00:00",
    "duration": null
   },
   {
@@ -51,10 +98,24 @@
    "duration": null
   },
   {
+   "id": "Cp25tb0Dhak",
+   "title": "MENTZEN GRILLUJE #105: Kobiety w Policji",
+   "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
+   "published": "2026-10-05T16:14:01+00:00",
+   "duration": null
+  },
+  {
    "id": "Luc_dVcadUg",
    "title": "Kard. Grzegorz Ryś: Po 1989 r. nie poradziliśmy sobie z wolnością | #KulturaPoświęcona",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
    "published": "2026-10-03T08:00:07+00:00",
+   "duration": null
+  },
+  {
+   "id": "fzko0Ds4dzQ",
+   "title": "MENTZEN GRILLUJE #104: Analfabeta Wałęsa",
+   "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
+   "published": "2026-09-28T14:58:08+00:00",
    "duration": null
   },
   {
@@ -65,10 +126,24 @@
    "duration": null
   },
   {
+   "id": "BJz2ovzfYdg",
+   "title": "MENTZEN GRILLUJE #103: Patrioty dla Ukrainy",
+   "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
+   "published": "2026-09-21T15:51:32+00:00",
+   "duration": null
+  },
+  {
    "id": "1DkmzIRjfJw",
    "title": "„Lalka” z Netflixa: ideologia, propaganda, porażka | #KulturaPoświęcona",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
    "published": "2026-09-19T08:00:06+00:00",
+   "duration": null
+  },
+  {
+   "id": "9iO4OwJPljs",
+   "title": "MENTZEN GRILLUJE #102: Trump oszalał",
+   "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
+   "published": "2026-09-14T15:46:47+00:00",
    "duration": null
   },
   {
@@ -83,6 +158,13 @@
    "title": "Maryja z Konotopia – gigantomania czy znak wiary? Od Ziemowita Szczerka do gotyckich katedr",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
    "published": "2026-09-05T08:00:06+00:00",
+   "duration": null
+  },
+  {
+   "id": "GHyWGX80h9s",
+   "title": "MENTZEN GRILLUJE #101: Kral współpracuje z rządem Tuska",
+   "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
+   "published": "2026-08-31T16:00:05+00:00",
    "duration": null
   },
   {
@@ -107,10 +189,24 @@
    "duration": null
   },
   {
+   "id": "kWjQuPFfZVQ",
+   "title": "MENTZEN GRILLUJE #99: Politycy Platformy okradli powodzian",
+   "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
+   "published": "2026-08-10T16:00:51+00:00",
+   "duration": null
+  },
+  {
    "id": "nkHo7os-FkU",
    "title": "Islam, Kościół i imigracja. Czego Ceuta uczy Zachód? Gość: Mariusz Sulkowski | #KulturaPoświęcona",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
    "published": "2026-08-08T08:00:06+00:00",
+   "duration": null
+  },
+  {
+   "id": "hhqQ9wLBP9s",
+   "title": "MENTZEN GRILLUJE #98: Alert RCB",
+   "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
+   "published": "2026-08-03T12:53:24+00:00",
    "duration": null
   }
  ]
