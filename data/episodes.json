@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-18T15:14:57.448Z",
+ "updatedAt": "2026-11-18T15:16:46.838Z",
  "channels": [
   {
    "key": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
@@ -15,6 +15,11 @@
    "key": "PL7rwi_whaW87TSZHm6IppkZ7KnqVcxAXM",
    "title": "DUDEK O POLITYCE PODCAST",
    "url": "https://www.youtube.com/playlist?list=PL7rwi_whaW87TSZHm6IppkZ7KnqVcxAXM"
+  },
+  {
+   "key": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
+   "title": "didaskalia",
+   "url": "https://www.youtube.com/channel/UCvO1VxAIoV3E7IhQ6EAXxyQ"
   }
  ],
  "episodes": [
@@ -23,6 +28,13 @@
    "title": "MENTZEN GRILLUJE #111: Marsz Niepodległości",
    "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
    "published": "2026-11-16T15:47:02+00:00",
+   "duration": null
+  },
+  {
+   "id": "zVhGbKjYdnw",
+   "title": "Starzenie mózgu można spowolnić II dr Paweł Boguszewski",
+   "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
+   "published": "2026-11-15T18:00:07+00:00",
    "duration": null
   },
   {
@@ -47,6 +59,13 @@
    "duration": null
   },
   {
+   "id": "qaT3MXdBXDo",
+   "title": "Dlaczego OpenAI wezwało go z powrotem? AI przeraża nawet jej twórców? || Prof. Aleksander Mądry",
+   "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
+   "published": "2026-11-08T18:00:11+00:00",
+   "duration": null
+  },
+  {
    "id": "8gdjes9HebI",
    "title": "Dusza – nauka vs religia. Bogdan de Barbaro i ks. Robert Woźniak | #KulturaPoświęcona",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
@@ -68,6 +87,13 @@
    "duration": null
   },
   {
+   "id": "T8Oh_R9pR6I",
+   "title": "Miało tam nic nie być. Polacy odkryli podziemne pole grobowców w Egipcie II dr Krzysztof Radtke",
+   "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
+   "published": "2026-11-01T18:00:36+00:00",
+   "duration": null
+  },
+  {
    "id": "JuqQxnVXZns",
    "title": "W obronie ks. Szymika i tradycyjnego kapłaństwa. Gość: Jan Maciejewski | Kultura Poświęcona",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
@@ -86,6 +112,13 @@
    "title": "MENTZEN GRILLUJE #108: Maharadża Tusk",
    "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
    "published": "2026-10-26T16:17:21+00:00",
+   "duration": null
+  },
+  {
+   "id": "9J30xtK5RL0",
+   "title": "Odszedłem z OpenAI i nie żałuję II PSYHO",
+   "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
+   "published": "2026-10-25T18:00:01+00:00",
    "duration": null
   },
   {
@@ -131,6 +164,13 @@
    "duration": null
   },
   {
+   "id": "OCqasKRWWaI",
+   "title": "Dlaczego Chiny przegrały swoją przyszłość? II prof. Michał Kopczyński",
+   "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
+   "published": "2026-10-11T17:00:38+00:00",
+   "duration": null
+  },
+  {
    "id": "Ssf-FY_x17E",
    "title": "Biejat się cieszy, Pasolini płacze. Rewolucja 1968 roku skończyła lewicę? | #KulturaPoświęcona",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
@@ -149,6 +189,13 @@
    "title": "MENTZEN GRILLUJE #105: Kobiety w Policji",
    "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
    "published": "2026-10-05T16:14:01+00:00",
+   "duration": null
+  },
+  {
+   "id": "Q0Zgij_8_qM",
+   "title": "Rosyjskie czołgi lepsze od polskich Abramsów? II gen. Renart Skrzypczak",
+   "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
+   "published": "2026-10-04T17:00:02+00:00",
    "duration": null
   },
   {
@@ -173,6 +220,13 @@
    "duration": null
   },
   {
+   "id": "KZmLDjYPqWg",
+   "title": "Tajemnica chrztu Jezusa. Co usunięto z Ewangelii? II prof. Marcin Majewski",
+   "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
+   "published": "2026-09-27T17:00:12+00:00",
+   "duration": null
+  },
+  {
    "id": "p7HgpEljxgg",
    "title": "Dieta planetarna w szkołach i psiecko NA POWAŻNIE | #KulturaPoświęcona",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
@@ -191,6 +245,13 @@
    "title": "MENTZEN GRILLUJE #103: Patrioty dla Ukrainy",
    "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
    "published": "2026-09-21T15:51:32+00:00",
+   "duration": null
+  },
+  {
+   "id": "wA4kLcKq8Nk",
+   "title": "Fizyk o śladach wcześniejszego wszechświata. II prof. Krzysztof Turzyński",
+   "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
+   "published": "2026-09-20T17:00:08+00:00",
    "duration": null
   },
   {
@@ -215,6 +276,13 @@
    "duration": null
   },
   {
+   "id": "FrzWFpJ6mWU",
+   "title": "Współpracowałem z CIA, MI6 i Mosadem. Jak działa rosyjski wywiad w Polsce? II Major Tarski",
+   "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
+   "published": "2026-09-13T17:00:06+00:00",
+   "duration": null
+  },
+  {
    "id": "hJ28w-L5ypA",
    "title": "Osiedle Maltańskie. Kościół sprzedał, deweloper zarobił, politycy zawiedli | #KulturaPoświęcona",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
@@ -226,6 +294,20 @@
    "title": "TRUMP ZNOWU OSZALAŁ?! WANDALIZM BRAUNA, CENY PALIW I WYGRANA AfD | Dudek o Polityce",
    "channel": "PL7rwi_whaW87TSZHm6IppkZ7KnqVcxAXM",
    "published": "2026-09-11T18:00:06+00:00",
+   "duration": null
+  },
+  {
+   "id": "DZD7bQKh_Nw",
+   "title": "Plan Tuska na utrzymanie władzy. \"On nie ma skrupułów\" - prof. Antoni Dudek",
+   "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
+   "published": "2026-09-08T17:00:06+00:00",
+   "duration": null
+  },
+  {
+   "id": "0LgAzJUjx8g",
+   "title": "Dlaczego Rosja nie bankrutuje? Kto naprawdę płaci za wojnę? II Iwona Wiśniewska",
+   "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
+   "published": "2026-09-06T17:00:06+00:00",
    "duration": null
   },
   {
@@ -250,6 +332,13 @@
    "duration": null
   },
   {
+   "id": "zwX-v1M9Ubw",
+   "title": "Polacy jako robactwo. Tak działała propaganda III Rzeszy - prof. Eugeniusz Cezary Król",
+   "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
+   "published": "2026-08-30T17:00:06+00:00",
+   "duration": null
+  },
+  {
    "id": "v5w2DA5z-mk",
    "title": "Mróz-Gorgoń to małe piwo. Polska potrzebuje nowego „Czterdziestolatka” | #KulturaPoświęcona",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
@@ -264,6 +353,13 @@
    "duration": null
   },
   {
+   "id": "y-R3CGDgeDY",
+   "title": "Były oficer ABW o cyberwojnie i bezpieczeństwie polskich systemów II Piotr Borkowski",
+   "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
+   "published": "2026-08-23T17:00:13+00:00",
+   "duration": null
+  },
+  {
    "id": "C6RrMEbHv8g",
    "title": "Od „Tristana i Izoldy” do Tindera. Kultura terapii wykańcza miłość | #KulturaPoświęcona",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
@@ -275,6 +371,13 @@
    "title": "PROF. DUDEK: TO 21 OSZUSTW KAROLA NAWROCKIEGO! PODSUMOWANIE ROKU PREZYDENTURY | Dudek o Polityce",
    "channel": "PL7rwi_whaW87TSZHm6IppkZ7KnqVcxAXM",
    "published": "2026-08-21T18:00:06+00:00",
+   "duration": null
+  },
+  {
+   "id": "Eyvdr4zXadk",
+   "title": "Jaka prawda o muzułmanach i żydach wyłania się z Koranu? II prof. Katarzyna Pachniak",
+   "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
+   "published": "2026-08-16T17:00:06+00:00",
    "duration": null
   },
   {
@@ -299,6 +402,13 @@
    "duration": null
   },
   {
+   "id": "qoS5NDf3Xfk",
+   "title": "Największe tajemnice czasu i przestrzeni || dr inż. Maciej Mulak",
+   "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
+   "published": "2026-08-09T17:00:06+00:00",
+   "duration": null
+  },
+  {
    "id": "nkHo7os-FkU",
    "title": "Islam, Kościół i imigracja. Czego Ceuta uczy Zachód? Gość: Mariusz Sulkowski | #KulturaPoświęcona",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
@@ -310,6 +420,48 @@
    "title": "MENTZEN GRILLUJE #98: Alert RCB",
    "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
    "published": "2026-08-03T12:53:24+00:00",
+   "duration": null
+  },
+  {
+   "id": "vMpjYpQuaWE",
+   "title": "Jak Izrael może odpowiedzieć na atak? Czy czeka nas nowa wojna? - Jarosław Kociszewski - didaskalia",
+   "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
+   "published": "2024-04-14T19:27:49+00:00",
+   "duration": null
+  },
+  {
+   "id": "SUtVyP6J1QU",
+   "title": "Jakie są wizje rozwoju Polski? Debata Ekonomistów: Piątkowski vs Wojciechowski - didaskalia",
+   "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
+   "published": "2024-04-10T18:41:23+00:00",
+   "duration": null
+  },
+  {
+   "id": "G1yC3qR2y-8",
+   "title": "Debata: Biejat, Wipler, Bocheński, Trzaskowski? Kto będzie prezydentem Warszawy?",
+   "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
+   "published": "2024-03-17T21:47:04+00:00",
+   "duration": null
+  },
+  {
+   "id": "nhXYabbRfDY",
+   "title": "Szef BBN: \"Musimy myśleć o 3 letnim horyzoncie czasowym\". Jacek Siewiera - didaskalia",
+   "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
+   "published": "2024-02-15T20:52:46+00:00",
+   "duration": null
+  },
+  {
+   "id": "XBqK8q47F10",
+   "title": "Czy zbankrutujemy przez CPK? - Maciej Wilk -didaskalia#52",
+   "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
+   "published": "2024-02-04T20:43:17+00:00",
+   "duration": null
+  },
+  {
+   "id": "QMWFdPWyBgs",
+   "title": "Wieczór wyborczy Wirtualnej Polski - didaskalia#",
+   "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
+   "published": "2023-10-15T21:30:02+00:00",
    "duration": null
   }
  ]

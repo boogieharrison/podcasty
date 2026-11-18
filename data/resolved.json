@@ -10,5 +10,9 @@
   "https://www.youtube.com/playlist?list=PL7rwi_whaW87TSZHm6IppkZ7KnqVcxAXM": {
     "kind": "playlist",
     "id": "PL7rwi_whaW87TSZHm6IppkZ7KnqVcxAXM"
+  },
+  "https://www.youtube.com/channel/UCvO1VxAIoV3E7IhQ6EAXxyQ": {
+    "kind": "channel",
+    "id": "UCvO1VxAIoV3E7IhQ6EAXxyQ"
   }
 }
