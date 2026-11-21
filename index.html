@@ -89,7 +89,8 @@ h1 { margin: 0; font-size: 20px; font-weight: 650; letter-spacing: -0.01em; }
 .end { padding: 44px 0 0; text-align: center; }
 .end strong { display: block; font-size: 16px; }
 
-/* Telefon: kolejność przycisków odwrócona – główna akcja to aplikacja YouTube */
+/* Telefon: odtwarzamy tylko w aplikacji YouTube – osadzony odtwarzacz w Safari
+   nie widzi zalogowania (reklamy, bez Premium, bez postępu w YouTube) */
 @media (max-width: 720px) {
   .side { padding-bottom: 0; gap: 16px; }
   .tabs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
@@ -99,7 +100,7 @@ h1 { margin: 0; font-size: 20px; font-weight: 650; letter-spacing: -0.01em; }
   .ep-body { flex-basis: 0; }
   .ep .actions { flex: 1 1 100%; }
   .ep .actions .yt { order: -1; flex: 1 1 auto; background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
-  .ep .actions .play { background: var(--panel); border-color: var(--line); color: var(--text); }
+  .ep .actions .play { display: none; }
 }
 details summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; }
 details[open] summary { margin-bottom: 8px; }
@@ -160,6 +161,7 @@ details[open] summary { margin-bottom: 8px; }
     { id: 'done', name: 'Odsłuchane', empty: 'Jeszcze nic nie odsłuchano.' },
   ];
   const KEY = 'podcasty.v1';
+  const phone = window.matchMedia('(max-width: 720px)').matches;
   const $ = (id) => document.getElementById(id);
 
   // ---- stan zapisany w tej przeglądarce ----
@@ -333,9 +335,11 @@ details[open] summary { margin-bottom: 8px; }
     }
     const actions = el('div', { class: 'actions' }, [
       el('button', { class: 'btn primary play', text: st === 'progress' ? 'Wznów' : 'Odtwórz', on: { click: () => play(e) } }),
+      // Bez &t= – aplikacja YouTube sama wznawia od miejsca zapisanego na koncie.
+      // Na telefonie bez nowej karty, żeby link od razu otwierał aplikację.
       el('a', {
-        class: 'btn yt', href: `https://www.youtube.com/watch?v=${e.id}${pos > 15 ? `&t=${pos}s` : ''}`,
-        target: '_blank', rel: 'noopener', text: 'W YouTube',
+        class: 'btn yt', href: `https://www.youtube.com/watch?v=${e.id}`,
+        target: phone ? null : '_blank', rel: 'noopener', text: 'W YouTube',
       }),
       st === 'done'
         ? iconBtn('Cofnij oznaczenie', 'undo', null, () => setMark(e.id, null))
