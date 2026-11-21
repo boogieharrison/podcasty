@@ -149,7 +149,10 @@ async function main() {
     try {
       const target = await resolve(url, resolved);
       const feed = await fetchChannel(target);
-      const key = target.id;
+      // "match": zostaw tylko filmy z tym tekstem w tytule (np. jedna audycja z dużego kanału)
+      const match = typeof item === 'object' && item.match ? item.match.toLowerCase() : null;
+      if (match) feed.entries = feed.entries.filter((e) => e.title.toLowerCase().includes(match));
+      const key = match ? `${target.id}~${match}` : target.id;
       const title = (typeof item === 'object' && item.name) || feed.title || url;
       channels.push({ key, title, url });
 

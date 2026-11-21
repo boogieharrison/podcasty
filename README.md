@@ -24,6 +24,13 @@ Edytuj `channels.json` (ikona ołówka na GitHubie) i wpisz linki do kanałów l
 ]
 ```
 
+Żeby z dużego kanału wziąć tylko jedną audycję, dodaj `match` – zostaną tylko filmy
+z tym tekstem w tytule:
+
+```json
+{ "url": "https://www.youtube.com/channel/UCUtQqcVDOl4_AKQh7rqfMPg", "name": "Nasłuch", "match": "| Nasłuch" }
+```
+
 Po zapisaniu (Commit changes) automat uruchomi się sam; odcinki pojawią się po 1–2 minutach.
 
 ## Co gdzie jest
