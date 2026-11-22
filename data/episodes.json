@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T15:26:12.955Z",
+ "updatedAt": "2026-11-22T21:52:19.297Z",
  "channels": [
   {
    "key": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
@@ -33,6 +33,13 @@
   }
  ],
  "episodes": [
+  {
+   "id": "EAPfFIi4g9E",
+   "title": "Co kryje się w innych wymiarach? Teoria strun, supersymetria i czas || dr Tomasz Miller",
+   "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
+   "published": "2026-11-22T18:00:09+00:00",
+   "duration": null
+  },
   {
    "id": "KocUcS6EYcI",
    "title": "Krzysztof Bosak vs Andrzej Leder. Polak-katolik pokona nihilizm | #KulturaPoświęcona",
