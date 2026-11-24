@@ -33,6 +33,22 @@ z tym tekstem w tytule:
 
 Po zapisaniu (Commit changes) automat uruchomi się sam; odcinki pojawią się po 1–2 minutach.
 
+## Pojedyncze odcinki
+
+Pole „Link do odcinka z YouTube” nad listą dodaje jeden film bez śledzenia całego kanału.
+Takie odcinki są w filtrach jako „Pojedyncze odcinki”; przycisk ✕ usuwa je z listy.
+
+## Synchronizacja między urządzeniami
+
+Stan odsłuchu, odłożone i dodane odcinki oraz filtry mogą być wspólne dla wszystkich urządzeń.
+Trzymane są w prywatnym (secret) giście na Twoim koncie GitHub.
+
+1. Utwórz token: https://github.com/settings/tokens/new?scopes=gist&description=Podcasty%20sync
+   (zaznaczone tylko „gist”, Expiration: No expiration) i skopiuj go.
+2. Na stronie: Kanały i filtry → Synchronizacja → wklej token → Połącz.
+3. Na kolejnym urządzeniu: kliknij „Link dla innego urządzenia” i otwórz ten link tam
+   (albo wklej token ręcznie). Link zawiera token – nie wysyłaj go nikomu.
+
 ## Co gdzie jest
 
 - `index.html` – cała aplikacja
