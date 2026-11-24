@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T12:59:42.771Z",
+ "updatedAt": "2026-11-24T00:58:42.837Z",
  "channels": [
   {
    "key": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
@@ -33,6 +33,13 @@
   }
  ],
  "episodes": [
+  {
+   "id": "IDKACMmjyc8",
+   "title": "MENTZEN GRILLUJE #112: Kaczyński blokuje reset",
+   "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
+   "published": "2026-11-23T14:39:31+00:00",
+   "duration": null
+  },
   {
    "id": "EAPfFIi4g9E",
    "title": "Co kryje się w innych wymiarach? Teoria strun, supersymetria i czas || dr Tomasz Miller",
