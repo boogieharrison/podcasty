@@ -22,5 +22,9 @@
   "https://www.youtube.com/channel/UCUtQqcVDOl4_AKQh7rqfMPg": {
     "kind": "channel",
     "id": "UCUtQqcVDOl4_AKQh7rqfMPg"
+  },
+  "https://www.youtube.com/channel/UCBGMZgxsjFo_S1KFp_l8nnA": {
+    "kind": "channel",
+    "id": "UCBGMZgxsjFo_S1KFp_l8nnA"
   }
 }

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T15:43:07.691Z",
+ "updatedAt": "2026-11-25T23:48:20.446Z",
  "channels": [
   {
    "key": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
@@ -30,9 +30,21 @@
    "key": "UCUtQqcVDOl4_AKQh7rqfMPg~| nasłuch",
    "title": "Nasłuch",
    "url": "https://www.youtube.com/channel/UCUtQqcVDOl4_AKQh7rqfMPg"
+  },
+  {
+   "key": "UCBGMZgxsjFo_S1KFp_l8nnA",
+   "title": "Biznes Klasa",
+   "url": "https://www.youtube.com/channel/UCBGMZgxsjFo_S1KFp_l8nnA"
   }
  ],
  "episodes": [
+  {
+   "id": "XDjKzaFmDuU",
+   "title": "Komu sprzyja zagranica? | Nasłuch",
+   "channel": "UCUtQqcVDOl4_AKQh7rqfMPg~| nasłuch",
+   "published": "2026-11-25T18:30:01+00:00",
+   "duration": null
+  },
   {
    "id": "IDKACMmjyc8",
    "title": "MENTZEN GRILLUJE #112: Kaczyński blokuje reset",
@@ -45,6 +57,13 @@
    "title": "Co kryje się w innych wymiarach? Teoria strun, supersymetria i czas || dr Tomasz Miller",
    "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
    "published": "2026-11-22T18:00:09+00:00",
+   "duration": null
+  },
+  {
+   "id": "94CiszFWgck",
+   "title": "Zenon Ziaja zaczynał od maszyny do lodów. Teraz jego majątek to 1,65 MILIARDA ZŁOTYCH!",
+   "channel": "UCBGMZgxsjFo_S1KFp_l8nnA",
+   "published": "2026-11-22T16:00:06+00:00",
    "duration": null
   },
   {
@@ -80,6 +99,13 @@
    "title": "Starzenie mózgu można spowolnić II dr Paweł Boguszewski",
    "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
    "published": "2026-11-15T18:00:07+00:00",
+   "duration": null
+  },
+  {
+   "id": "uNzBlBHgWb8",
+   "title": "\"Sami sobie założyliśmy smycz\" Co blokuje Europę w wyścigu z USA i Chinami? -  Hubert Stojanowski",
+   "channel": "UCBGMZgxsjFo_S1KFp_l8nnA",
+   "published": "2026-11-15T16:00:23+00:00",
    "duration": null
   },
   {
@@ -125,6 +151,13 @@
    "duration": null
   },
   {
+   "id": "nYgMjF2Yqhw",
+   "title": "Płacisz za markę czy za jakość? Artur Kazienko (Kazar) w Biznes Klasie",
+   "channel": "UCBGMZgxsjFo_S1KFp_l8nnA",
+   "published": "2026-11-08T16:00:29+00:00",
+   "duration": null
+  },
+  {
    "id": "8gdjes9HebI",
    "title": "Dusza – nauka vs religia. Bogdan de Barbaro i ks. Robert Woźniak | #KulturaPoświęcona",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
@@ -160,6 +193,13 @@
    "duration": null
   },
   {
+   "id": "ZzojnR-qA6Q",
+   "title": "Polak tworzy przyszłość ChatGPT. Mówi, czego się boi - prof. Aleksander Mądry w Biznes Klasie",
+   "channel": "UCBGMZgxsjFo_S1KFp_l8nnA",
+   "published": "2026-11-01T16:00:09+00:00",
+   "duration": null
+  },
+  {
    "id": "JuqQxnVXZns",
    "title": "W obronie ks. Szymika i tradycyjnego kapłaństwa. Gość: Jan Maciejewski | Kultura Poświęcona",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
@@ -188,6 +228,13 @@
    "duration": null
   },
   {
+   "id": "iheP476hacE",
+   "title": "Zbudował miliardowy biznes. Reserved, House, Cropp, Mohito, Sinsay – Marek Piechocki w Biznes Klasie",
+   "channel": "UCBGMZgxsjFo_S1KFp_l8nnA",
+   "published": "2026-10-25T16:00:19+00:00",
+   "duration": null
+  },
+  {
    "id": "ssRFPvvPEgA",
    "title": "Dialog czy relatywizm międzyreligijny? Tradycja, Sobór Watykański II i Jan Paweł II w Asyżu",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
@@ -206,6 +253,13 @@
    "title": "MENTZEN GRILLUJE #107: Francja",
    "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
    "published": "2026-10-19T15:34:23+00:00",
+   "duration": null
+  },
+  {
+   "id": "Zav529y6jB4",
+   "title": "Dane firmowe w ChatGPT? Ekspert mówi, czego absolutnie nie robić - Mateusz Chrobok w Biznes Klasie",
+   "channel": "UCBGMZgxsjFo_S1KFp_l8nnA",
+   "published": "2026-10-18T15:00:12+00:00",
    "duration": null
   },
   {
@@ -244,6 +298,13 @@
    "duration": null
   },
   {
+   "id": "9PGo4dxG8Ac",
+   "title": "Dziś jest jednym z najbogatszych Polaków. Zdradza kulisy jednej z najgłośniejszych afer III RP",
+   "channel": "UCBGMZgxsjFo_S1KFp_l8nnA",
+   "published": "2026-10-11T15:00:13+00:00",
+   "duration": null
+  },
+  {
    "id": "Ssf-FY_x17E",
    "title": "Biejat się cieszy, Pasolini płacze. Rewolucja 1968 roku skończyła lewicę? | #KulturaPoświęcona",
    "channel": "PLcCngfT_WRdZOV0fJa2lilPZdTAg-eVSU",
@@ -258,6 +319,13 @@
    "duration": null
   },
   {
+   "id": "xHMAm4Ebkoc",
+   "title": "\"Biznes to wojna\". Tak Polak walczy o kontrakty z gigantami - Jakub Wojewski w Biznes Klasie Young",
+   "channel": "UCBGMZgxsjFo_S1KFp_l8nnA",
+   "published": "2026-10-07T15:00:11+00:00",
+   "duration": null
+  },
+  {
    "id": "Cp25tb0Dhak",
    "title": "MENTZEN GRILLUJE #105: Kobiety w Policji",
    "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
@@ -269,6 +337,13 @@
    "title": "Rosyjskie czołgi lepsze od polskich Abramsów? II gen. Renart Skrzypczak",
    "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
    "published": "2026-10-04T17:00:02+00:00",
+   "duration": null
+  },
+  {
+   "id": "vFwJ4mw1m3c",
+   "title": "600 mln zł gotówki i miliard na przejęcia. Kogo kupią teraz? Jakub Dwernicki w Biznes Klasie",
+   "channel": "UCBGMZgxsjFo_S1KFp_l8nnA",
+   "published": "2026-10-04T15:00:21+00:00",
    "duration": null
   },
   {
@@ -293,6 +368,13 @@
    "duration": null
   },
   {
+   "id": "B-DOi2U0MNM",
+   "title": "Napisał aplikację dla mamy. Dziś korzysta z niej 6000 placówek- Jakub Pawelski w Biznes Klasie Young",
+   "channel": "UCBGMZgxsjFo_S1KFp_l8nnA",
+   "published": "2026-09-30T15:00:01+00:00",
+   "duration": null
+  },
+  {
    "id": "fzko0Ds4dzQ",
    "title": "MENTZEN GRILLUJE #104: Analfabeta Wałęsa",
    "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
@@ -304,6 +386,13 @@
    "title": "Tajemnica chrztu Jezusa. Co usunięto z Ewangelii? II prof. Marcin Majewski",
    "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
    "published": "2026-09-27T17:00:12+00:00",
+   "duration": null
+  },
+  {
+   "id": "WHqDv9aHDZs",
+   "title": "Przyszedł jako pracownik, został właścicielem. Dziś jego firma buduje fabryki chipów i schrony",
+   "channel": "UCBGMZgxsjFo_S1KFp_l8nnA",
+   "published": "2026-09-27T15:00:14+00:00",
    "duration": null
   },
   {
@@ -321,6 +410,13 @@
    "duration": 4091
   },
   {
+   "id": "FvCBODTBi0Y",
+   "title": "Bez studiów zbudował milionowy biznes na wsi - Daniel Stachowiak w Biznes Klasie Young",
+   "channel": "UCBGMZgxsjFo_S1KFp_l8nnA",
+   "published": "2026-09-23T15:00:00+00:00",
+   "duration": null
+  },
+  {
    "id": "BJz2ovzfYdg",
    "title": "MENTZEN GRILLUJE #103: Patrioty dla Ukrainy",
    "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
@@ -332,6 +428,13 @@
    "title": "Fizyk o śladach wcześniejszego wszechświata. II prof. Krzysztof Turzyński",
    "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
    "published": "2026-09-20T17:00:08+00:00",
+   "duration": null
+  },
+  {
+   "id": "hvlMpUpZt2o",
+   "title": "Profesor Stanfordu: Polska będzie daleko przed Europą - Prof. Piotr Moncarz w Biznes Klasie",
+   "channel": "UCBGMZgxsjFo_S1KFp_l8nnA",
+   "published": "2026-09-20T15:00:08+00:00",
    "duration": null
   },
   {
@@ -356,6 +459,13 @@
    "duration": null
   },
   {
+   "id": "dxkwYhULhNw",
+   "title": "19-latek robi biznes z Pentagonem. Atakuje rynek wart 60 mld - Maciej Szymczyk w Biznes Klasie Young",
+   "channel": "UCBGMZgxsjFo_S1KFp_l8nnA",
+   "published": "2026-09-16T15:00:06+00:00",
+   "duration": null
+  },
+  {
    "id": "9iO4OwJPljs",
    "title": "MENTZEN GRILLUJE #102: Trump oszalał",
    "channel": "PLvJueDNF55uCbuD-O7xKvg5cygZ3MfO_F",
@@ -367,6 +477,13 @@
    "title": "Współpracowałem z CIA, MI6 i Mosadem. Jak działa rosyjski wywiad w Polsce? II Major Tarski",
    "channel": "UCvO1VxAIoV3E7IhQ6EAXxyQ",
    "published": "2026-09-13T17:00:06+00:00",
+   "duration": null
+  },
+  {
+   "id": "g7MIgCDJJ3M",
+   "title": "Tylko trzy miasta nadal będą przyciągać ludzi. Reszta Polski będzie miała problem - Marek Koźmiński",
+   "channel": "UCBGMZgxsjFo_S1KFp_l8nnA",
+   "published": "2026-09-13T15:00:28+00:00",
    "duration": null
   },
   {
@@ -584,6 +701,20 @@
    "title": "Fathers Podcast #9 - Czy Rafał Trzaskowski ma czas na kryzys wieku średniego?",
    "channel": "UC_Fq7UCqowN0GMwuu4GRgyg",
    "published": "2026-06-23T04:54:41+00:00",
+   "duration": null
+  },
+  {
+   "id": "OWgzoCmMfok",
+   "title": "\"Pieniądze to pierwszy krok do upadku\" - Zbigniew Jakubas WYDANIE SPECJALNE",
+   "channel": "UCBGMZgxsjFo_S1KFp_l8nnA",
+   "published": "2025-05-14T12:26:15+00:00",
+   "duration": null
+  },
+  {
+   "id": "Eaph2aVspkk",
+   "title": "Wielki biznes od środka - kto rozdaje karty? Zbigniew Jakubas w Biznes Klasie WYDANIE SPECJALNE",
+   "channel": "UCBGMZgxsjFo_S1KFp_l8nnA",
+   "published": "2025-05-14T12:25:36+00:00",
    "duration": null
   },
   {
